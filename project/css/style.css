@@ -1,0 +1,83 @@
+.container{
+    width:550px;
+    height:600px;
+    background-color: rgb(181, 183, 184);
+    left:30%;
+    margin-top: 5%;
+    position: relative;
+    border:2px solid rgb(90, 106, 247);
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgb(97, 143, 230);
+}
+.container h4{
+    position: relative;
+    margin: 30px;
+    left: 30%;
+    font-size: larger;
+    color: rgb(7, 46, 218);
+    text-shadow: 1px 0px rgb(23, 112, 212);
+}
+.lbl{
+    margin-left:70px;
+    position: relative;
+    top: 15px;
+}
+.container .txt{
+    margin-left:90px;
+    position: relative;
+    border-radius: 20px;
+    width: 40%;
+    height: 20px;
+    border: none;
+    padding: 5px 0px 5px 20px;
+    box-shadow: 2px 2px rgb(97, 143, 230);
+    outline: none;
+    top: 15px;
+}
+#pass{
+    margin-left:100px;
+    top: 30px;
+}
+#lpass{
+    top: 30px;
+}
+.container .btn{
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 2px 2px rgb(97, 143, 230);
+    left: 40%;
+    top: 40px;
+    font-size: 15px;
+}
+.container .btn:hover{
+    background-color: rgb(43, 141, 233);
+    color: white;
+    box-shadow: 2px 2px rgb(1, 11, 31);
+}
+#login{
+    top: 86px;
+    left: 310px;
+    width: 90px;
+    
+}
+#register{
+    left: 150px;
+}
+.msg{
+    color:rgb(0, 209, 0);
+    font-size: 20px;
+    text-shadow: 1px 0px rgb(95, 110, 100);
+    position: relative;
+    top: -60px;
+    left: 200px;
+}
+.error{
+    color:rgb(255, 15, 15);
+    font-size: 18px;
+    text-shadow: 1px 0px rgb(233, 24, 24);
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
