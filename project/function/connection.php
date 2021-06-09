@@ -1,5 +1,5 @@
 <?php
-    $conn=mysqli_connect("localhost","sakthi","12345","php");
+    $conn=mysqli_connect("localhost","root","","php");
     if(!$conn)
     {
         die("Not Connected");
